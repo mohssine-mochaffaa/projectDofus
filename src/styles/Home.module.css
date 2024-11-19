@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.all{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f8e1b7 ;
+
+}
+.underline{
+  display: none;
+}
+.navContainer p{
+  cursor: pointer;
+}
+.navContainer{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navImage{
+    width: 100% ;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+  
+}
+.all img{
+  width: 100% ;
+}
+.imgsContainer{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+  top: 0;
+}
+.imgs{
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.inline{
+  display: none;
+}
+.recherche{
+  background-color: black;
+  border: 2px solid #f3c800;
+  border-radius: 5px;
+  height: 23px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.all .myImg{
+  width: 100% ;
+  height: 250px;
+  position: relative ;  
+}
+.mini{
+  position: relative;
+  width: 240px;
+  height: 140px;
+  border: 3px groove #f3c800 ;
+  cursor: pointer;
+}
+.searchIcon{
+  background: url("/public/assets/submit.png") no-repeat right center;
+  width: 25px;
+  height: 20px;
+} 
+.third .texting3 p{
+  color: #ffffff;
+  font-size: 15px;
+
+}
+.third .texting3 p a{
+  color: #e52e2e;
+  font-size: 15px;
+}
+.recherche input{
+  border: none;
+  border-right: 1px solid white;
+  background-color: black;
+  height: 18px;
+  padding-left: 10px;
+  width: 90px;  
+  color: white;
+  outline: none;
+  font-family: sans-serif;
+  
+}
+.recherche input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+
+.recherche input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+}
+
+.recherche input::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+}
+.main{
+  background-color: #f8e1b7 ;
+  width: 100%;
+}
+.mainContanier{
+  width: 100%;
+}
+.mainContanier h1{
+  color: rgb(68, 68, 68);
+  font-weight: 640;
+  letter-spacing: 1px;
+}
+.box{
+  width: 90%;
+}
+.mainInfos{
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin-top: 20px; 
+}
+.text{
+  font-size: 15px !important;
+  font-weight: bolder !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.mainContanier .text{
+  color: rgb(81, 81, 81);
+  font-weight: 500;
+  font-size: 15px;
+  text-align: start;
+  margin-bottom: 25px;
+  letter-spacing: 0px;
+}
+.mainContanier .text2{
+  color: rgb(233, 3, 3);
+  font-weight: 600;
+  font-size: 15px;
+  text-align: start;
+  margin-bottom: 25px;
+  letter-spacing: 0px;
+}
+.date{
+  letter-spacing: 0px;
+
+}
+.mainInfos img{
+  width: 440px;
+  height: 240px;
+}
+.mainrightInfos{
+  text-align: start;
+  margin-left: 10px;
+  width: 100%;
+  padding-left: 25px;
+}
+.mainImgSection{
+  width: 440px;
+  text-align: start;
+  
+}
+.mainImgSection p{
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+  font-size: 15px;
+}
+.mainrightInfos .pre{
+  padding: 50px;
+  padding-top: 0;
+
+}
+.mainrightInfos li{
+  width: 100%;
+}
+.mainrightInfos .pre .link{
+  text-decoration: none;
+  color: red;
+}
+.mainrightInfos h3{
+  color: red;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.link{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mainrightInfos li{
+  color: rgb(96, 96, 96);
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 12px;
+}
+.texting{
+  width: 960px;
+}
+.commentSection{
+  width: 100%; 
+  height: 400px;
+  background-color: #f3c800;
+}
+.third .texting p{
+  font-weight: 400;
+  margin-bottom: 5px;
+  letter-spacing: 0px;
+}
+.third .texting p a{
+  text-decoration: none;
+  color: rgb(247, 51, 51);
+}
+footer .first{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .first a{
+  text-decoration: none;
+  color: rgb(247, 51, 51);
+  font-weight: 600;
+}
+footer .first input{
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+
+@media screen and (max-width:1200px) {
+  .navContainer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+}
+
+@media screen and (max-width:1100px) {
+  .mainInfos{
+    display: flex;
+    justify-content: space-between;
+    width: 860px;
+    margin-top: 20px; 
+  }
+  .texting{
+    width: 860px;
+  }
+  .mainInfos img{
+    width: 400px;
+    height: 200px;
+  }
+  .mainrightInfos{
+    text-align: start;
+    margin-left: 10px;
+    width: 550px;
+    padding-left: 25px;
+  }
+  .all img{
+    width: 100% ;
+  
+  }
+  .all .myImg{
+    width: 100% ;
+    height: 250px;
+    position: relative ;  
+  }
+  .imgsContainer{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+  .imgs{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .mini{
+    position: relative;
+    width: 190px;
+    height: 90px;
+    border: 3px groove #f3c800 ;
+  cursor: pointer;
+  }
+  
+}
+@media screen and (max-width:910px) {
+  .mainInfos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px; 
+    flex-wrap: wrap;
+    
+  }
+  .inline{
+    display: inline;
+    width: 100%;
+    height: 50px;
+  }
+  .mainInfos img{
+    padding-left: 20px;
+    height: 300px;
+  }
+  .date{
+    padding-left: 20px;
+  }
+  .texting{
+    width: 800px;
+  }
+  .mainrightInfos{
+    text-align: start;
+    margin-left: 10px;
+    width: 90%;
+    padding-left: 20px;
+  }
+  .mainImgSection{
+    width: 90%;
+    text-align: start;
+    
+  }
+  .texting{
+    width: 100%;
+  }
+  .navContainer{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .imgs{
+    width: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+}
+@media screen and (max-width:685px) {
+  
+  .mini{
+    position: relative;
+    width: 160px;
+    height: 90px;
+    border: 3px groove #f3c800 ;
+  cursor: pointer;
+  }
+  .imgs{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .navContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navContainer img{
+    width: 110px;
+    height: 12px;
+  }
+  .navContainer p{
+    font-size: 9px;
+  }
+  .recherche{
+    background-color: black;
+    border: 2px solid #f3c800;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchIcon{
+    width: 20px;
+    height: 15px;
+    background-size: contain;
+  } 
+  .recherche input{
+    border: none;
+    border-right: 1px solid white;
+    background-color: black;
+    height: 10px;
+    padding-left: 10px;
+    width: 70px;  
+    color: white;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 10px;
+
+    
+  }
+  .box h1{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width:600px) {
+  
+  .imgs{
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .mainInfos img{
+    padding-left: 20px;
+    height: 250px;
+  }
+  .mini{
+    position: relative;
+    width: 140px;
+    height: 80px;
+    border: 3px groove #f3c800 ;
+  cursor: pointer;
+  }
+  .texting{
+    margin-top: -20px;
+  }
+  .navContainer img{
+    width: 100px;
+    height: 10px;
+  }
+}
+@media screen and (max-width:500px) {
+  .third .texting3 p{
+    color: #ffffff;
+    font-size: 12px;
+
+  }
+  .third .texting3 p a{
+    color: #e52e2e;
+    font-size: 12px;
+  }
+  .first a{
+    font-size: 14px;
+  }
+  .first .footerInput input{
+    width: 200px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:490px) {
+  .mini{
+    position: relative;
+    width: 130px;
+    height: 80px;
+    border: 3px groove #f3c800 ;
+  cursor: pointer;
+  margin-top: -50px;
+  }
+  .imgs{
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .all .myImg{
+    width: 100% ;
+    height: 210px;
+    position: relative ;  
+  }
+  .recherche{
+    background-color: black;
+    border: 1px solid #f3c800;
+    border-radius: 5px;
+    height: 15px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchIcon{
+    width: 20px;
+    height: 15px;
+    background-size: contain;
+  } 
+  .recherche input{
+    border: none;
+    border-right: 1px solid white;
+    background-color: black;
+    height: 5px;
+    padding-left: 10px;
+    width: 40px;  
+    color: white;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 7px;
+
+    
+  }
+}
+@media screen and (max-width:440px) {
+  .mini{
+    position: relative;
+    width: 120px;
+    height: 70px;
+    border: 3px groove #f3c800 ;
+  cursor: pointer;
+  margin-top: -50px;
+  }
+  .imgs{
+    width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .all .myImg{
+    width: 100% ;
+    height: 210px;
+    position: relative ;  
+  }
+}

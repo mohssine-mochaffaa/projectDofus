@@ -1,0 +1,1350 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.all5{
+    background: rgb(43, 31, 21) url("../assets/background.jpg") center top no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  .App2{
+    width: 100%;
+    background-color: #000000;
+  }
+  .nav2{
+    background-color: #0c0b07;
+    width: 100%;
+    height: 110px;
+  }
+  .nav2 .firstNav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(165, 183, 5);
+  }
+  .nav2 .firstNav .fcontainer{
+    width: 75%;
+    display: flex;
+    align-items: center;;
+    height: 30px;
+    justify-content: space-between;
+  }
+  .leftC{
+    display: flex;
+    align-items: center;
+  }
+  .leftC h3{
+    color: #787878;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-right: 10px;
+  }
+  .leftC p{
+    color: #ffffff;
+    background-color: #262626;
+    font-weight: 200;
+    font-size: 10px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .rightC{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 135px;
+  }
+  .flags{
+    position: absolute;
+    margin-top: -5px;
+    top: 0;
+    right: 8px;
+    display: flex;
+    flex-flow: column;
+    cursor: pointer;
+  }
+  .flag1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #1f1f1f !important;
+    padding: 8px;
+    padding-bottom: 0;
+    padding-top: 5px;
+  }
+  .flags .flag1 img{
+    width: 22px;  
+    height: 30px;
+    object-fit: contain;
+    padding: 0;
+    }
+  .flag{
+    display: flex;
+    align-items: center;
+    background-color: #d1d1d1 !important;
+    width: 60px;
+    padding: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+  }
+  .flag .flagN{
+    background-color: #d1d1d1 !important;
+    font-size: 13px;
+    color: #7b7b7b;
+  }
+  .flags .flag img{
+width: 22px;  
+height: 30px;
+object-fit: contain;
+padding: 0;
+}
+.sui{
+  text-decoration: none;
+}
+.ad{
+  width: 100%;
+}
+  .rightC p{
+    color: #ffffff;
+    background-color: #262626;
+    font-weight: 200;
+    font-size: 10px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .secondNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .sec1 .diff{
+    background-color: #abb7003f !important;
+    font-weight: bold !important;
+  }
+  .sec1 .diff:hover{
+    background-color: #abb700 !important;
+    color: white !important;
+  }
+  
+  .dofusLogo .sec1 a div{
+    background-color: rgb(90, 90, 90);
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    margin-right: 5px;
+
+  }
+  .dofusLogo .sec2 a div{
+    background-color: rgb(90, 90, 90);
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    margin-right: 5px;
+
+
+  }
+  .dofusLogo .sec3 a div{
+    background-color: rgb(90, 90, 90);
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    margin-right: 5px;
+
+  }
+  .dofusLogo .sec1 a:hover div{
+    background-color: #aab700;
+
+  }
+  .dofusLogo .sec2 a:hover div{
+    background-color: #aab700;
+
+
+  }
+  .dofusLogo .sec3 a:hover div{
+    background-color: #aab700;
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .imgAS{
+    width: 40px ;
+    height: 50px;
+    object-fit: contain;
+    background-color: #aab700;
+    border-radius: 3px;
+    margin-top: 0px !important;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .imgAS .inp{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .imgAS .inp button{
+    background-color: #abb700;
+    border: none;
+    padding: 3px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 5px;
+    border-radius: 2px;
+  }
+  .imgAS .inp input{
+    margin-left: 5px;
+    width: 170px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+    display: block;
+  }
+  
+  .imgAS:focus{
+    width: 250px ;
+    transition: 0.5s;
+    position: absolute;
+    right: 120px;
+  }
+  
+  .imgAS .imgS{
+    width: 40px ;
+    height: 40px; 
+    object-fit: contain;
+    margin-top: 0px !important;
+  }
+   
+  .imgAS:hover{
+   
+    background-color: #d6e405;
+  
+    
+  }
+  .downArrow {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+      
+    border-top: 4px solid #aab700;
+    margin-left: 10px;
+    transform: rotate(-90deg);
+    }
+    .nv1:hover  .downArrow{
+      transform: rotate(0deg);
+      border-top: 5px solid #aab700;
+
+    }
+    .nv2:hover  .downArrow{
+      transform: rotate(0deg);
+      border-top: 5px solid #aab700;
+
+    }.nv3:hover  .downArrow{
+      transform: rotate(0deg);
+      border-top: 5px solid #aab700;
+
+    }
+
+  .secondNav2{
+    width: 100%;
+    background-color: #0c0b07;
+    height: 0px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 70px;
+    transition: 0.8s;
+    left: 0;
+    top: 15px;
+    display: none;
+    transition: 1s;
+  }
+  .nv1,.nv2,.nv3{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+ 
+  
+  .secondNav2 .dofusLogo .sec1 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 170px !important;
+    padding: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .secondNav2 .dofusLogo .sec2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 170px !important;
+    padding: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .secondNav2 .dofusLogo .sec3 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 170px !important;
+    padding: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .secondNav2 .dofusLogo .sec1 a:hover{
+    color: #aab700;
+  }
+  .secondNav2 .dofusLogo .sec2 a:hover{
+    color: #aab700;
+  }
+  .secondNav2 .dofusLogo .sec3 a:hover{
+    color: #aab700;
+  }
+  
+  
+  .nv1:hover  .secondNav2{
+    width: 100%;
+    background-color: #0c0b07;
+    height: 310px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 75px;
+    display: inline;
+  }
+  .nv2:hover  .secondNav2{
+    width: 100%;
+    background-color: #0c0b07;
+    height: 310px ;
+    z-index: 10;
+    position: absolute;
+    margin-top: 75px;
+    display: inline;
+
+  }
+  .nv3:hover  .secondNav2{
+    width: 100%;
+    background-color: #0c0b07;
+    height: 310px ;
+    z-index: 10;
+    position: absolute;
+    margin-top: 75px;
+    display: initial;
+
+  }
+
+  .secondNav2 .dofusLogo{
+    width: 900px;
+    height: 100%;
+    outline: none;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+
+
+
+  .dofusLogo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .dofusLogo img{
+    width: 190px;
+    margin-top: -40px;
+  }
+  .cont{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cont2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .leftS{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .rightS{
+    width: 380px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+  .rightS a:hover{
+    color: #aab700;
+
+  }
+  .rightS a,.leftS a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-right: 1px solid rgba(162, 162, 162, 0.435);
+    padding-right: 12px;
+    font-size: 14px;
+  }
+.jouer{
+  width: 100%;
+}
+.comicon{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.content .comicon .comiconP{
+  color: #83900a !important;
+}
+.jouer button{
+  width: 160px;
+  height: 60px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 #000000;
+  border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f7e199), color-stop(7%, #f9db77), color-stop(14%, #fac612), color-stop(41%, #f19e12), color-stop(52%, #f19e12), color-stop(88%, #f19e12), color-stop(99%, #fac612));
+    background: -webkit-linear-gradient(top, #f7e199 1%, #f9db77 7%, #fac612 14%, #f19e12 41%, #f19e12 52%, #f19e12 88%, #fac612 99%);
+    background: linear-gradient(to bottom, #f7e199 1%, #f9db77 7%, #fac612 14%, #f19e12 41%, #f19e12 52%, #f19e12 88%, #fac612 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$c1', endColorstr='$c3',GradientType=0 );
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+  }
+  .icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+  }
+  .circle{
+    background-color: #5c6701;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .circle2{
+    background-color: #879505;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:  4px solid #a6b808;
+  }
+  .circle img{
+    width: 70px;
+    height: 70px;
+  }
+  .blog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    
+  }
+  .blogImg{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .blogContainer{
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.402);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+  .blogContainer .main{
+    width: 75%;
+    background-color: #ffffff;
+  }
+  .blogContainer .main .header{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    
+  }
+  .blogContainer .main .header .icon{
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+  .blogContainer .main .header .title{
+    background-color: #97A800;
+    padding-left: 10px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .blogContainer .main .header .title h1{
+    color: white;
+    font-size: 35px;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  } 
+  .blogContainer .main .header .title h4{
+    color: white;
+    font-size: 14px;
+  }
+  .media{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-top: 5px solid gray;
+    border-bottom: 6px solid gray;
+
+
+  }
+  .mediaFb{
+    display: flex;
+    align-items: center;
+  }
+  .mediaFb span{
+    background-color: rgb(85, 85, 248);
+    height: 25px;
+    width: 90px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mediaFb2{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .mediaFb2 span{
+    background-color: rgb(47, 164, 248);
+    height: 25px;
+    width: 70px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mediaFb2 img{
+    width: 25px;
+    background-color:rgb(120, 159, 252) ;
+  }
+  .mediaFb img{
+    width: 25px;
+    background-color:rgb(85, 85, 248) ;
+  }
+  .retourner{
+    margin-top: -1px;
+  }
+  .retourner button{
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #687400;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+
+  }
+  .retourner button p{
+    color: rgb(255, 255, 255); 
+    font-size: 18px; 
+    margin-right: 5px;
+  }
+  .main .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .main .content .contentBox{
+    width: 80%;
+    margin-top: 20px;
+
+  }
+  .main .content .contentBox img{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .main .content p{
+    color: #000000;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-size: 15px !important;
+
+  }
+  .main .content .boldText{
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  .main .content button{
+    background-color: #97A800;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0;
+    width: 210px;
+    border: none;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    margin-top: 35px;
+    cursor: pointer;
+  }
+  .main .content button:hover{
+    background-color: #bfd401;
+    text-decoration: underline;
+  }
+  .commentaires .header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+    
+  }
+  .commentaires .header p{
+    color: green;
+    letter-spacing: 0;
+    margin-right: 10px;
+  }
+  .commentaires .header h2{
+    letter-spacing: 0;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .commentaires .content{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f6f6f6;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    padding-bottom: 15px;
+  }
+  .commentaires .content .sideImg{
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    
+  }
+  .commentaires .content .sideImg img{
+    width: 100%;
+    border: 1px solid black;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .heading h4{
+    color: #8c9b03;
+  }
+  .sideText .heading .tag{
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .sideText .heading .tag2{
+    color: #515151;
+    font-size: 11px;
+  }
+.content .sideText p{
+  padding-right: 10px;
+  letter-spacing: 0px;
+  font-size: 13px !important; 
+
+}
+.commenter{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.commenter img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.commenter textarea{
+  max-height: 80px;
+  min-height: 80px;
+  width: 80%;
+  padding: 5px;
+}
+.com{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.com button{
+  background-color: #97A800;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 0;
+  width: 120px;
+  border: none;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  margin-top: 35px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+
+  .blogContainer .side{
+    width: 24%;
+    height: 800px;
+    padding-top: 10px;
+
+  }
+
+  .blogContainer .side .side1{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    margin-bottom: 10px;
+  }
+
+  .blogContainer .side .side1 .header{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    
+  }
+  .blogContainer .side .side1 .icon{
+    width: 90px;
+    height: 50px;
+    background-color: #ffffff;
+  }
+  .blogContainer .side .side1 .title{
+    background-color: #97A800;
+    padding-left: 10px;
+    width: 100%;
+    padding: 15px;
+    display: flex; 
+    justify-content: space-between;
+  }
+  .blogContainer .side .side1 .title h1{
+    color: white;
+    font-size: 15px;
+  }
+
+  .side1 .content{
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    padding-right: 0px;
+    padding-top: 8px;
+    padding-bottom:8px ;
+    height:fit-content;
+  }
+  .side1 .content .sideImg img{
+   width: 90px;
+   padding-left: 8px;
+  }
+  .side1 .content .sideText p{
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .voir{
+    background-color: rgb(207, 207, 207);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .voir p{
+    color: rgb(59, 59, 59);
+    letter-spacing: 0;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .voir p:hover{
+    color: rgb(59, 59, 59);
+    text-decoration: underline;
+  }
+  .side1 .content .sideText2 p{
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .side1 .content .sideText2 .nameP{
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .sideTextP a{
+    color: #000000;
+    text-decoration: none;
+  }
+  .sideTextP a:hover{
+    color: #aab700;
+    text-decoration: underline;
+  }
+  .side1 .content .sideText2 .nameP:hover{
+    text-decoration: underline;
+
+  }
+  .side1 .content .sideText2 .p2{
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    color: #868686;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .side1 .content .sideText2 .p2 .name{
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    color: #aab700;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .side1 .content .sideText2 .p3{
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    color: #515151;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .modal{
+    width: 55%;
+    background-color: rgb(250, 254, 255);
+    position: fixed;
+    top: 15%;
+    left: 22%;
+    box-shadow: 3px 3px 4px rgb(64, 64, 64),-3px -3px 4px rgb(64, 64, 64);
+    padding-bottom: 10px;
+  }
+  .modal .header{
+    background-color: #97A800;
+    width: 100%;
+    display: block;
+    height: 40px;
+    justify-content: center;
+    align-items: center;display: flex;
+  }
+  .modal .header button{
+    background-color: #737f04;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    font-weight: bold; 
+    cursor: pointer;
+  }
+  .modal .header h4{    
+    color: white;
+   
+    font-size: 16px;
+    font-weight: bold; 
+  }
+  .modal .content{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .modal .content .contentBox1{
+    width: 30%;
+    border-right: 1px solid rgb(191, 191, 191);
+  }
+  .modal .content .contentBox1 .fb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .modal .content .contentBox1 .fb img{
+    height: 38px;
+    width: 38px;
+    background-color: blue;
+    cursor: pointer;
+    
+  }
+  .modal .content .contentBox1 .fb button{
+    background-color: rgb(101, 101, 220);
+    color: white;
+    border: none;
+    width: 130px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    font-size: 17px;
+  }
+  .modal .content .contentBox1 h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(50, 50, 50);
+    letter-spacing: 0;
+  }
+  .modal .content .contentBox{
+    width: 60%;
+  }
+  .modal .content .contentBox h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(50, 50, 50);
+    letter-spacing: 0;
+  }
+  .modal .content .contentBox input{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(176, 176, 176);
+    padding-left: 10px;
+  }
+  .modal .content .contentBox .error{
+    background-color: rgb(244, 223, 223);
+    margin-bottom: 10px;
+    margin-top: -10px;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .radio{
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    align-items: center;
+  }
+  .radio p{
+    width: 500px;
+    margin-top: -10px;
+
+  }
+  .modal .content .contentBox .input2{
+    margin-top: 10px;
+    height: 20px;
+    margin-bottom: 15px;
+  }
+  .modal .content .contentBox p{
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  .modal .content .contentBox button{
+    background-color: #97A800;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0;
+    border: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    margin-top: 5px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+  
+  }
+
+  .modal .content .contentBox button:hover{
+    background-color: #bfd401;
+    text-decoration: underline;
+  }
+
+
+  .p3p{
+    font-size: 13px !important;
+    margin-bottom: 10px;
+    color: #575757 !important;
+    cursor: pointer;
+    margin-left: 5px;
+    cursor: pointer;
+    width: fit-content;
+  }
+  .p3p:hover{
+    color: #242424 !important;
+  }
+  @media screen and (max-width:1100px) {
+    .blogContainer{
+      width: 85%;
+      background-color: rgba(146, 146, 146, 0.618);
+      display: inline;
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+    }
+    .blogContainer .main{
+      width: 100%;
+      background-color: #ffffff;
+      margin-bottom: 10px;
+    }
+    .blogContainer .side{
+      width: 100%;
+      height: 800px;
+    }
+    .cont{
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .cont2{
+      width: 30%;
+    }
+    .leftS{
+      width: 300px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .rightS{
+      width: 330px;
+      display: flex;
+      justify-content: space-evenly;
+  
+  
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 12px;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width:1000px) {
+    .cont{
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .cont2{
+      width: 30%;
+    }
+    .leftS{
+      width: 270px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .rightS{
+      width: 300px;
+      display: flex;
+      justify-content: space-evenly;
+  
+  
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 12px;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width:900px) {
+    .cont{
+      width: 35%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .cont2{
+      width: 35%;
+    }
+    .leftS{
+      width: 220px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .rightS{
+      width: 250px;
+      display: flex;
+      justify-content: space-evenly;
+  
+  
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 12px;
+      font-size: 10px;
+    }
+    .dofusLogo img{
+      width: 150px;
+      margin-top: -30px;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .blogImg{
+      width: 100%;
+      height: 320px;
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .cont{
+      width: 40%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .cont2{
+      width: 40%;
+    }
+    .leftS{
+      width: 220px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .rightS{
+      width: 250px;
+      display: flex;
+      justify-content: space-evenly;
+  
+  
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 12px;
+      font-size: 10px;
+    }
+    .dofusLogo img{
+      width: 120px;
+      margin-top: -25px;
+    }
+    .nav2{
+      background-color: #0c0b07;
+      width: 100%;
+      height: 90px;
+    }
+    .retourner{
+      display: none;
+    }
+    .blogContainer .main .header .title h1{
+      color: white;
+      font-size: 20px;
+      font-family: "bebas_neueregular",sans-serif;
+
+    }
+    .blogContainer .main .header .title h4{
+      color: white;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width:630px) {
+    .blogImg{
+      width: 100%;
+      height: 280px;
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .cont{
+      width: 45%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .cont2{
+      width: 45%;
+    }
+    .leftS{
+      width: 200px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .rightS{
+      width: 200px;
+      display: flex;
+      justify-content: space-evenly;
+  
+  
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 12px;
+      font-size: 9px;
+    }
+    .dofusLogo img{
+      width: 100px;
+      margin-top: -20px;
+    }
+    .nav2{
+      background-color: #0c0b07;
+      width: 100%;
+      height: 90px;
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 5px;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .blogImg{
+      width: 100%;
+      height: 230px;
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .cont{
+      width: 40%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .cont2{
+      width: 48%;
+
+    }
+    .leftS{
+      width: 200px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .rightS{
+      width: 200px;
+      display: flex;
+      justify-content: space-evenly;
+  
+  
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 12px;
+      font-size: 8px;
+    }
+    .dofusLogo img{
+      width: 80px;
+      margin-top: -16px;
+    }
+    .nav2{
+      background-color: #0c0b07;
+      width: 100%;
+      height: 90px;
+    }
+    .rightS a,.leftS a{
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-right: 1px solid rgba(162, 162, 162, 0.435);
+      padding-right: 5px;
+    }
+  }
